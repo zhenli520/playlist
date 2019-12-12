@@ -37,6 +37,7 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 ## Day 3
 
 ## JavaScript
+- [ ] Comment out your code that refers to arrays
 - [ ] Create Objects in your playlist project that hold all your song information
 
 #### Wrap
