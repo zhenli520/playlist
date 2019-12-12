@@ -48,6 +48,8 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 
 ## JavaScript
 
+- [ ] Update your .push() method based on your new array of Objects
+- [ ] Update your loop based on your new array of Objects
 - [ ] Finish refactoring your playlist project
 
 #### Wrap
@@ -57,6 +59,7 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Add in your own CSS to personalize your project
 - [ ] Use .length to display how many songs are on your list
 - [ ] Add a delete button to delete songs on your list
+- [ ] Refactor your project further by utilizing functions to simplify your code
 - [ ] Add a shuffle button and functionality
 - [ ] Use local storage to save your songs locally
 
