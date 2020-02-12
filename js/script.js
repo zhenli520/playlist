@@ -49,6 +49,10 @@ function emptySongInfo(){
 function addSongInfo(){
     // BELOW write the code to add new items to each of the arrays.
     $("#songs").push(inputSong);
+    $("#artists").push(inputArtist);
+    $("#lengths").push(inputLength);
+    $("#images").push(inputImage);
+    $("#links").push(inputLink);
 
 }
 
