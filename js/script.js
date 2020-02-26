@@ -15,25 +15,20 @@ var songLink = [];
 
 function displaySongInfo(){
     // BELOW Use forEach Loop to display the data from each of your arrays in the correct div
-    songNames.forEach(function(){
-        inputSong = $("#song").val();
-        $("#songs").show(inputSong);
+    songNames.forEach(function(name){
+        $("#songs").append("<div>" + name + "</div>");
     })
-    songArtist.forEach(function(){
-        inputArtist = $("#artist").val();
-        $("#artists").show(inputArtist);
+    songArtist.forEach(function(artist){
+        $("#artists").append("<div>" + artist + "</div>");
     })
-    songLength.forEach(function(){
-        inputLength = $("#length").val();
-        $("#lengths").show(inputLength);
+    songLength.forEach(function(length){
+        $("#lengths").append("<div>" + length + "</div>");
     })
-    songImage.forEach(function(){
-        inputImage = $("#image").val();
-        $("#images").show(inputImage);
+    songImage.forEach(function(image){
+        $("#images").append("<div>" + image + "</div>");
     })
-    songLink.forEach(function(){
-        inputLink = $("#link").val();
-        $("#links").show(inputLink);
+    songLink.forEach(function(link){
+        $("#links").append("<div>" + name + "</div>");
     })
 }
 
@@ -48,11 +43,20 @@ function emptySongInfo(){
 
 function addSongInfo(){
     // BELOW write the code to add new items to each of the arrays.
-    $("#songs").push(inputSong);
-    $("#artists").push(inputArtist);
-    $("#lengths").push(inputLength);
-    $("#images").push(inputImage);
-    $("#links").push(inputLink);
+    inputSong = $("#song").val();
+    songNames.push(inputSong);
+
+    inputArtist = $("#artist").val();
+    songArtist.push(inputArtist);
+
+    inputLength = $("#length").val();
+    songLength.push(inputLength);
+
+    inputImage = $("#image").val();
+    songImage.push(inputImage);
+
+    inputLink = $("#link").val();
+    songLink.push(inputLink);
 
 }
 
